@@ -182,7 +182,24 @@ body {
           font-size: 20px;
           margin: 0;
         }
+        &_action {
+          .fa-pen, .fa-trash {
+            font-size: 18px;
+            color: #8c8c8c;
+          }
+          .fa-trash {
+            margin-right: 10px;
+          }
+        }
       }
     }
+  }
+}
+
+// edit
+.listeditPage {
+  .listForm {
+    max-width: 500px;
+    margin: 100px auto 0;
   }
 }
