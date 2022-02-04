@@ -72,7 +72,8 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   config.hosts.clear
-
+  
+  config.web_console.whitelisted_ips = '110.4.194.67'
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end
